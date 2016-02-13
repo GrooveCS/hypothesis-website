@@ -1181,6 +1181,9 @@
 		margin: 0 0 0.5em 0;
 	}
 
+    form input[type=email],
+    form input[type=tel],
+    form input[type=number],
 	form input[type=text],
 	form input[type=email],
 	form input[type=password],
@@ -1203,6 +1206,9 @@
 		width: 100%;
 	}
 
+        form input[type=email]:focus,
+        form input[type=tel]:focus,
+        form input[type=number]:focus,
 		form input[type=text]:focus,
 		form input[type=email]:focus,
 		form input[type=password]:focus,
@@ -1627,6 +1633,9 @@
 				color: #fff;
 			}
 
+			.wrapper.style4 form input[type=email],
+			.wrapper.style4 form input[type=tel],
+			.wrapper.style4 form input[type=number],
 			.wrapper.style4 form input[type=text],
 			.wrapper.style4 form input[type=password],
 			.wrapper.style4 form select,
@@ -1634,7 +1643,9 @@
 				border: none;
 				background: #282828;
 			}
-
+				.wrapper.style4 form input[type=email]:focus,
+				.wrapper.style4 form input[type=tel]:focus,
+				.wrapper.style4 form input[type=number]:focus,
 				.wrapper.style4 form input[type=text]:focus,
 				.wrapper.style4 form input[type=password]:focus,
 				.wrapper.style4 form select:focus,
